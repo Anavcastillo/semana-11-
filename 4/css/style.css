@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #blue;
+}
+
+.header {
+    padding: 0.0000001px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 250px;
+    padding-top: 15%;
+    color: #EA2F11;
+    font-family: Italian Breakfast Regular;
+}
+
+img { 
+    margin-right:50%;
+    border-radius: 50%;
+    size: 25px;
+ }
+
+ * {
+    box-sizing: border-box;
+}
+
+h3{ 
+    font-size: 5em;
+    text-align: center; 
+    font-family: Italian Breakfast Regular;
+ }
+
+ h5{ 
+    text-align: center;
+    font-size: 1.2em; 
+  }
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #green;
+    padding-left: 20px;
+}
+
+h2 { 
+font-size: 5em; 
+color: black;
+margin-left: 3%;
+font-family: Italian Breakfast Regular; 
+ }
+
+.card {
+    background-color: 
+    padding: 50px;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p { 
+color: black;
+margin-left: 3%;
+ }
+
+header {
+    background-image: url("../images/3.jpg");
+    background-size: cover; 
+    background-position: bottom center;
+    height:10%;
+    width:5%; 
+
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+    background: #FF684A;
+    margin-top: 1px;
+}
+
+@media screen and (max-width: 400px) 
+{
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+#banner { 
+background-image: url("../images/3.jpg");
+background-size: cover;
+background-position: bottom center;
+height: 40%; 
+width: 100%; 
+}
+
+ul li{
+    display: inline-block; 
+    color: white;
+    text-align: center; 
+    list-style-type: none; 
+    margin: 7%; 
+    padding: 0%; 
+    margin: 0%;
+    padding: 0%;  
+    padding-right: 7%;  
+
+}
+
+nav { 
+margin-top: 20%;
+margin-bottom: 50%
+margin-right:20%;
+margin-left:8%;
+text-align: center; 
+background-color: #FF684A;
+align-items: center;   
+size: 50px;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+a{ 
+text-decoration: none; 
+color: black; 
+font-size: 1.25em;
+}
+
+ a:hover { 
+ color: #FFB24A; 
+ width: 60%; 
+}

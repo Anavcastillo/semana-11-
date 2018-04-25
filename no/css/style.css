@@ -1,0 +1,169 @@
+
+body { 
+background-color: #FCFBF4; 
+}
+
+.slider { 
+width: 95%; 
+margin: auto; 
+overflow: hidden; 
+ }
+
+.slider ul { 
+display: flex; 
+padding: 0; 
+width: 400%;
+animation: cambio 20s infinite;
+animation-direction: alternate;
+ }
+
+.slider li { 
+width: 100%;
+list-style: none; 
+  }
+
+ .slider img { 
+ width: 100%;
+  } 
+
+h1 { 
+font-size: 9.09em; 
+text-align: center; 
+font-family: Italian Breakfast Regular;
+background-color: white;
+margin-bottom:5%;
+margin-top: -2%;
+background-color: white; 
+ }
+
+li a:hover {
+  color: #008CBA;  
+  width: 40%; 
+  font-family:helvetica light; 
+}
+
+nav a{ 
+text-decoration: none; 
+color: black; 
+font-size: 1.25em;
+}
+
+a { 
+    text-decoration: none; 
+    color: white;
+  }
+
+a:hover { 
+color: black;
+  }
+
+nav { 
+text-align: center; 
+background-color: white; 
+padding-top: 4%;
+margin-top: -7%;
+}
+
+ul li{
+    display: inline-block; 
+    color: white;
+    text-align: center; 
+    list-style-type: none; 
+    font-family: helvetica ligth;
+} 
+
+.newspaper {
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+    -webkit-column-width: 100px; 
+    -moz-column-width: 100px; 
+    column-width: 100px;
+    line-height: 30px;
+    text-align: left;
+    background: #FCF9E9;
+}
+
+@keyframes cambio { 
+    0% { margin-left: 0; } 
+    20% {margin-left: 0; } 
+
+    25% {margin-left: -100%; } 
+    45% {margin-left: -100%; }
+
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+ }
+
+footer { 
+background-color: ; 
+margin-top: 10%; 
+text-align: center; 
+font-family: helvetica light; 
+margin-bottom: 1%;
+ }
+
+ .container {
+  margin-left: 40%;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+   justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 20%;
+  height: 0;
+  transition: .5s ease;
+   align-content: center;
+}
+
+.container:hover .overlay {
+   justify-content: center;
+   align-content: center; 
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+p { 
+margin-top: -0.7%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
